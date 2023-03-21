@@ -1,11 +1,11 @@
 /*=== GOOGLE FONTS ===*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-/*===== VARIABLES CSS =====*/
+/*=== VARIABLES CSS ===*/
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-  /*==== Font ===*/
+  /*=== Font ===*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
@@ -88,7 +88,7 @@ img {
   padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
+/*=== LAYOUT ===*/
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -106,7 +106,7 @@ img {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
-/*===== NAV =====*/
+/*=== NAV ===*/
 .nav {
   height: var(--header-height);
   display: flex;
@@ -176,7 +176,7 @@ img {
   right: 0;
 }
 
-/*===== HOME =====*/
+/*=== HOME ===*/
 .home {
   position: relative;
   row-gap: 5rem;
@@ -239,7 +239,7 @@ img {
   box-shadow: 3px 3px #658354b0;
 }
 
-/* ===== ABOUT =====*/
+/* === ABOUT ===*/
 .about_container {
   row-gap: 2rem;
   text-align: center;
@@ -303,7 +303,7 @@ img {
 }
 
 
-/* ===== WORK =====*/
+/* === WORK ===*/
 .portfolio_container {
   row-gap: 2rem;
 }
@@ -344,7 +344,7 @@ img {
   margin-left: auto;
 }
 
-/* ===== FOOTER =====*/
+/* === FOOTER ===*/
 .l-footer {
   background-color: #658354;
   color: #fff;
@@ -371,7 +371,7 @@ img {
   margin: 0 var(--mb-2);
 }
 
-/* ===== MEDIA QUERIES=====*/
+/* === MEDIA QUERIES ===*/
 @media screen and (max-width: 575px) {
   .home {
     row-gap: 2rem;
