@@ -239,6 +239,10 @@ img {
   box-shadow: 3px 3px #658354b0;
 }
 
+.downlad-cv{
+  margin-top: 20px;
+}
+
 /* === ABOUT ===*/
 .about_container {
   row-gap: 2rem;
@@ -272,6 +276,11 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.cv_subtitle_color {
+  margin-bottom: var(--mb-2);
+  color: #658354;
+}
+
 .cv_position{
   font-weight: bold;
   color: #658354;
@@ -296,6 +305,11 @@ img {
 
 .cv_task{
   margin-bottom: 3px;
+}
+
+.cv_task_color{
+  margin-bottom: 3px;
+  color: #658354;
 }
 
 .download_cv{
